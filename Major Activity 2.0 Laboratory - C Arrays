@@ -27,7 +27,7 @@ int main() {
             {
                 printf("\nYou have succesfully logged in ID#:0001\n", User[0][0]);
             }else
-            printf("\ Invalid ID/PIN \n");
+            printf("\ Invalid ID/PIN! \n");
         }
     
     if(usr==User[1][0])
@@ -39,7 +39,7 @@ int main() {
             {
                 printf("\nYou have succesfully logged in ID#:0002 \n", User[1][0]);
             }else
-            printf("\ Invalid ID/PIN \n");
+            printf("\ Invalid ID/PIN! \n");
         }
     
     if(usr==User[2][0])
@@ -51,7 +51,7 @@ int main() {
             {
                 printf("\nYou have succesfully logged in ID#:0003\n", User[2][0]);
             }else
-            printf("\ Invalid ID/PIN \n");
+            printf("\ Invalid ID/PIN! \n");
         }
     return 0;
 }
