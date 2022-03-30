@@ -1,0 +1,57 @@
+
+#include <stdio.h>
+
+int main() {
+    int usr;
+    int pss;
+    int User[3][2];
+    //1
+    User[0][0] = 0001;
+    User[0][1] = 111;
+    //2
+    User[1][0] = 0002;
+    User[1][1 ]= 222;
+    //3
+    User[2][0] = 0003;
+    User[2][1] = 333;
+    
+    printf("\n Enter ID Number: ");
+    scanf("%d", &usr);
+    
+    if(usr==User[0][0])
+        {
+            printf("Enter Pin: ");
+            scanf("%d", &pss);
+            
+            if(pss==User[0][1])
+            {
+                printf("\nYou have succesfully logged in ID#: 0001\n", User[0][0]);
+            }else
+            printf("\ Invalid ID/PIN \n");
+        }
+    
+    if(usr==User[1][0])
+        {
+            printf("Enter Pin: ");
+            scanf("%d", &pss);
+            
+            if(pss==User[1][1])
+            {
+                printf("\nYou have succesfully logged in ID#: 0002 \n", User[1][0]);
+            }else
+            printf("\ Invalid ID/PIN \n");
+        }
+    
+    if(usr==User[2][0])
+        {
+            printf("Enter Pin: ");
+            scanf("%d", &pss);
+            
+            if(pss==User[2][1])
+            {
+                printf("\nYou have succesfully logged in ID#: 0003\n", User[2][0]);
+            }else
+            printf("\ Invalid ID/PIN \n");
+        }
+    return 0;
+}
